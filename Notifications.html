@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style/bootstrap.min.css" rel="stylesheet">
+  <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+
+  <!-- As a link -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <input type="button" value="Main!!" onclick="history.back()">
+      <p>Desarollo Web Full stack</p>
+      <p>Isaac Gamboa Campos</p>
+    </div>
+  </nav>
+
+
+  <main class="container mt-3">
+    <h2>Notifications</h2>
+
+    <h5>Badges</h5>
+
+    <button type="button" class="btn btn-primary">
+      Mensajes <span class="badge bg-secondary">4</span>
+    </button>
+
+    <button type="button" class="btn btn-primary position-relative">
+      Sin leer
+      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+        99+
+        <span class="visually-hidden">unread messages</span>
+      </span>
+    </button>
+
+    <span class="badge rounded-pill bg-primary">Primary</span>
+    <span class="badge rounded-pill bg-secondary">Secondary</span>
+    <span class="badge rounded-pill bg-success">Success</span>
+    <span class="badge rounded-pill bg-danger">Danger</span>
+    <span class="badge rounded-pill bg-warning text-dark">Warning</span>
+    <span class="badge rounded-pill bg-info text-dark">Info</span>
+    <span class="badge rounded-pill bg-light text-dark">Light</span>
+    <span class="badge rounded-pill bg-dark">Dark</span>
+
+    <hr />
+
+
+    <h5>Spinners</h5>
+    <h5>Usado especialmente para denotar la carga</h5>
+
+    <div class="spinner-grow text-muted"></div>
+    <div class="spinner-grow text-primary"></div>
+    <div class="spinner-grow text-success"></div>
+    <div class="spinner-grow text-info"></div>
+    <div class="spinner-grow text-warning"></div>
+    <div class="spinner-grow text-danger"></div>
+    <div class="spinner-grow text-secondary"></div>
+    <div class="spinner-grow text-dark"></div>
+    <div class="spinner-grow text-light"></div>
+    <div class="spinner-border text-muted"></div>
+    <div class="spinner-border text-primary"></div>
+    <div class="spinner-border text-success"></div>
+    <div class="spinner-border text-info"></div>
+    <div class="spinner-border text-warning"></div>
+    <div class="spinner-border text-danger"></div>
+    <div class="spinner-border text-secondary"></div>
+    <div class="spinner-border text-dark"></div>
+    <div class="spinner-border text-light"></div>
+
+    <button class="btn btn-primary" type="button" disabled>
+      <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+      <span class="visually-hidden">Loading...</span>
+    </button>
+    <button class="btn btn-primary" type="button" disabled>
+      <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+      Loading...
+    </button>
+
+  </main>
+
+
+</body>
+
+</html>
