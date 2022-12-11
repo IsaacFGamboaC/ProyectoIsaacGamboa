@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style/bootstrap.min.css" rel="stylesheet">
+  <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+
+  <!-- As a link -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <input type="button" value="Main!!" onclick="history.back()">
+      <p>Desarollo Web Full stack</p>
+      <p>Isaac Gamboa Campos</p>
+    </div>
+  </nav>
+
+
+  <main class="container mt-3">
+    <h2>Forms</h2>
+
+
+    <h5>Login basico</h5>
+    <form>
+      <aside class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <aside id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </aside>
+      <aside class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </aside>
+      <aside class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </aside>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <hr />
+
+    <h5>Registro basico</h5>
+    <form class="row g-3">
+      <aside class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </aside>
+      <aside class="col-md-6">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </aside>
+      <aside class="col-12">
+        <label for="inputAddress" class="form-label">Address</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </aside>
+      <aside class="col-12">
+        <label for="inputAddress2" class="form-label">Address 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      </aside>
+      <aside class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+      </aside>
+      <aside class="col-md-4">
+        <label for="inputState" class="form-label">State</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </aside>
+      <aside class="col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </aside>
+      <aside class="col-12">
+        <aside class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Check me out
+          </label>
+        </aside>
+      </aside>
+      <aside class="col-12">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </aside>
+    </form>
+  </main>
+
+
+</body>
+
+</html>

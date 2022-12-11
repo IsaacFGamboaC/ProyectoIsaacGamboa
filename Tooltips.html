@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style/bootstrap.min.css" rel="stylesheet">
+  <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+
+  <!-- As a link -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <input type="button" value="Main!!" onclick="history.back()">
+      <p>Desarollo Web Full stack</p>
+      <p>Isaac Gamboa Campos</p>
+    </div>
+  </nav>
+
+
+  <main class="container mt-3">
+    <h2>Tooltips</h2>
+
+    <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="Te quiero!">Posa el cursor sobre
+      mi!</button>
+    <p></p>
+    <p<p>la Direccion es personalizable tambien</p>
+      <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Arriba!">Hover</a>
+      <a href="#" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Abajo!">Hover</a>
+      <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Izquierda!">Hover</a>
+      <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="Derecha!">Hover</a>
+  </main>
+</body>
+
+</html>
+
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+</script>

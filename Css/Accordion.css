@@ -1,0 +1,32 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-colum{
+    width: 30%;
+    background-color: #fff;
+    color: white;
+    border: 2px solid white;
+}
+.blue{
+    width: 60.5%;
+}
+.lila{
+    width: 66.41%;
+}
+.lila2{
+    
+    width: 33.1%;
+}
+.mora3{
+    width: 60.5%;
+}
+.naran{
+    width: 50%;
+}
+.red{
+    width: 100%;
+}
+
+.text-center {text-align: center;margin:0px}

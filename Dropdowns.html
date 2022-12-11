@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style/bootstrap.min.css" rel="stylesheet">
+  <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+
+  <!-- As a link -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <input type="button" value="Main!!" onclick="history.back()">
+      <p>Desarollo Web Full stack</p>
+      <p>Isaac Gamboa Campos</p>
+    </div>
+  </nav>
+
+
+  <main class="container mt-3">
+    <h2>Dropdowns</h2>
+
+    <aside class="btn-group">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+        aria-expanded="false">
+        Dropdown
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">1</a></li>
+        <li><a class="dropdown-item" href="#">2</a></li>
+        <li><a class="dropdown-item" href="#">3</a></li>
+      </ul>
+    </aside>
+
+    <aside class="btn-group">
+      <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Alinado a la derecha
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end">
+        <li><a class="dropdown-item" href="#">1</a></li>
+        <li><a class="dropdown-item" href="#">2</a></li>
+        <li><a class="dropdown-item" href="#">3</a></li>
+      </ul>
+    </aside>
+
+    <aside class="btn-group dropstart">
+      <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropstart
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">1</a></li>
+        <li><a class="dropdown-item" href="#">2</a></li>
+        <li><a class="dropdown-item" href="#">3</a></li>
+      </ul>
+    </aside>
+
+    <aside class="btn-group dropend">
+      <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropend
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">1</a></li>
+        <li><a class="dropdown-item" href="#">2</a></li>
+        <li><a class="dropdown-item" href="#">3</a></li>
+      </ul>
+    </aside>
+
+    <aside class="btn-group dropup">
+      <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropup
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">1</a></li>
+        <li><a class="dropdown-item" href="#">2</a></li>
+        <li><a class="dropdown-item" href="#">3</a></li>
+      </ul>
+    </aside>
+  </main>
+
+</body>
+
+</html>
